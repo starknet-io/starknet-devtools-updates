@@ -1,0 +1,51 @@
+# Site settings
+title: "Starknet DevTools Updates"
+description: "Bi-weekly updates about Starknet developer tools and ecosystem developments"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# GitHub Pages settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Updates
+    url: /#updates
+
+# SEO settings
+author: "Starknet DevTools Team"
+twitter:
+  username: starknet
+  card: summary
+
+# GitHub repository (update these when you know the actual repo details)
+github:
+  repository_name: starknet-devtools-updates
+  repository_url: https://github.com/[username]/starknet-devtools-updates
+
+# Build settings
+safe: true
+source: .
+destination: ./_site
+timezone: UTC
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+  - .git/
