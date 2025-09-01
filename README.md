@@ -8,9 +8,9 @@ Updates are published bi-weekly and are listed below in descending chronological
 
 ### 2025
 
-| Date       | Update              | Link                                          |
-| ---------- | ------------------- | --------------------------------------------- |
-| 2025-08-19 | Update #1 - [Title] | [📖 Read More](./updates/2024-01-update-001/) |
+| Date       | Update              | Link                                           |
+| ---------- | ------------------- | ---------------------------------------------- |
+| 2025-08-19 | Foundry Updates | [📖 Read More](./updates/2025-08-18-update.md) |
 
 ---
 
